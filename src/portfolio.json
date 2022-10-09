@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "project": "JATE: Just Another Text Editor",
+        "image": "https://user-images.githubusercontent.com/103372188/194450282-d8f6d27e-b9a1-44e3-8788-e3243100df73.png",
+        "github": "https://github.com/ekellv/JATE-Just-Another-Text-Editor",
+        "deployment": "https://aqueous-fortress-98451.herokuapp.com/",
+        "skills": "node.js | express.js | IndexedDB | Webpack"
+    },
+    {
+        "id": 2,
+        "project": "MVC Tech Blog",
+        "image": "https://github.com/ekellv/tech-blog/blob/main/assets/tech-blog-screenshot.png?raw=true",
+        "github": "https://github.com/ekellv/tech-blog",
+        "deployment": "https://tech-blog-erin-v.herokuapp.com/",
+        "skills": "MySQL | sequelize | dotenv | bcrypt | express.js | MVC | ORM | handlebars.js"
+    },
+    {
+        "id": 3,
+        "project": "Note Taking App",
+        "image": "https://user-images.githubusercontent.com/103372188/184249757-c65ba469-f308-44d4-a934-8b337fa8778e.png",
+        "github": "https://github.com/ekellv/Note-Taker-App",
+        "deployment": "https://note-taking-app-erin.herokuapp.com/",
+        "skills": "node.js | express.js | uuid"
+    },
+    {
+        "id": 4,
+        "project": "Blog 1.5",
+        "image": "https://user-images.githubusercontent.com/103372188/189008075-fb632f8a-d993-4ac9-83f9-cc69569b8e00.png",
+        "github": "https://github.com/jaronhadley/project-2",
+        "deployment": "https://guarded-beach-85319.herokuapp.com/",
+        "skills": "MySQL | sequelize | dotenv | bcrypt | express.js | MVC | ORM | handlebars.js | lodash"
+    },
+    {
+        "id": 5,
+        "project": "Team Profile Generator",
+        "image": "https://user-images.githubusercontent.com/103372188/182389890-a8d89bdc-8b4d-4110-bb75-81ae0605344e.png",
+        "github": "https://github.com/ekellv/Team-Profile-Generator",
+        "deployment": "https://ekellv.github.io/Team-Profile-Generator/",
+        "skills": "node.js | inquirer.js | jest.js | OOP | bootstrap"
+    },
+    {
+        "id": 6,
+        "project": "README.md Generator",
+        "image": "https://user-images.githubusercontent.com/103372188/181518582-2ca71ecf-814e-4300-b6ec-2c4e2ccb30b9.png",
+        "github": "https://github.com/ekellv/Professional-README.md-Generator",
+        "deployment": "https://github.com/ekellv/Professional-README.md-Generator",
+        "skills": "node.js | inquirer.js"
+    },
+    {
+        "id": 7,
+        "project": "My Kinda Films",
+        "image": "https://user-images.githubusercontent.com/103372188/178149266-d2fef1c9-9d08-4c78-8949-7ed450574036.png",
+        "github": "https://github.com/ekellv/my-kinda-films",
+        "deployment": "https://archer261.github.io/my-kinda-films/",
+        "skills": "jQuery | materialize CSS | API"
+    },
+    {
+        "id": 8,
+        "project": "Weather Dashboard",
+        "image": "https://user-images.githubusercontent.com/103372188/177420251-b5b30f88-99df-4014-8074-a57ed24e2602.png",
+        "github": "https://github.com/ekellv/Weather-Dashboard-Using-OpenWeather-API",
+        "deployment": "https://ekellv.github.io/Weather-Dashboard-Using-OpenWeather-API/",
+        "skills": "HTML | CSS | Bootstrap | API | moment.js"
+    },
+    {
+        "id": 9,
+        "project": "Workday Scheduler",
+        "image": "https://user-images.githubusercontent.com/103372188/175821993-2152a11c-cba4-4443-9fe2-20dcdce90a93.png",
+        "github": "https://github.com/ekellv/Workday-Scheduler",
+        "deployment": "https://ekellv.github.io/Workday-Scheduler/",
+        "skills": "HTML | CSS | javascript"
+    }
+]
