@@ -5,31 +5,35 @@ import Portfolio from './pages/portfolio';
 import Contact from './pages/contact-me';
 import Resume from './pages/resume'
 
-export default function PortfolioContainer() {
-const [currentPage, setCurrentPage] = useState('About');
+function PortfolioContainer() {
 
+  const [currentPage, setCurrentPage] = useState('About');
 
-const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Contact Me') {
-      return <Contact />;
-    }
-    return <Resume />;
-};
+  const renderPage = () => {
+        switch(currentPage) {
+        case "about": 
+        return <About></About>
+        case "contact": 
+        return <Contact></Contact>
+        case "portfolio":
+        return  <Portfolio></Portfolio>
+        case "resume": 
+        return <Resume></Resume>
+        default:
+          return <About></About>
+      }
+  };
 
 const handlePageChange = (page) => setCurrentPage(page);
 
-return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
-    </div>
-  );
+    return (
+        <div>
+          {/* We are passing the currentPage from state and the function to update it */}
+          <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+          {/* Here we are calling the renderPage method which will return a component  */}
+          {renderPage()}
+        </div>
+      );
 }
+
+export default PortfolioContainer;
