@@ -38,21 +38,22 @@ function ContactMe() {
 
     // the contact form itself
     return (
+        <div className="container">
             <section class="justify-content-center" id="contact-form-div">
             <h1 className="contact">Contact Erin Voelker</h1>
             <hr></hr>
             <form class="justify-content-center" id="contact-form">
             <div>
-                <label htmlFor="name">Name:</label>
-                <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
+                <label htmlFor="name">🖋️ Name: 🖋️</label>
+                <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
             </div>
             <div >
-                <label htmlFor="email">Email:</label>
-                <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
+                <label htmlFor="email">📧 Email: 📧</label>
+                <input className="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
             </div>
             <div>
-                <label htmlFor="message">Message:</label>
-                <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
+                <label htmlFor="message">✍️ Message: ✍️</label>
+                <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
             </div>
 
             {errorMsg && (
@@ -66,6 +67,7 @@ function ContactMe() {
             </div>
         </form>
     </section>
+    </div>
     );
 }
 

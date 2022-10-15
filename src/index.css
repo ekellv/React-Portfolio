@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,172 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* color palette constructed @ https: //coolors.co/f3b9ce-f4de7c-ccedf5-7d84b2-282f23 */
+:root {
+  --baby-pink:#E2B6B9;
+  --jasmine:#F4DE7C;
+  --rhythm:#7D84B2;
+  --lilac-luster:#AF97AE;
+  --pine-tree:#282F23;
+  --liver-dogs:#BF6900;
+  --gold:#dea730;
+  --tuscany:#C59698;
+  --catawba:#693A3C;
+}
+
+* {
+  background: var(--lilac-luster);
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: var(--baby-pink);
+}
+
+/* importing google font url for desired font */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+a {
+  background: none;
+}
+
+#profile-pic {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    clear: inline-end;
+    margin-top: 20rem;
+    padding-bottom: 20px;
+    text-rendering: auto;
+    position: fixed;
+
+}
+
+.header, .contact {
+  font-size: 500%;
+  text-shadow: 4px 4px var(--liver-dogs);
+}
+
+#about-me-paragraph, .paragraph {
+  background-color: var(--rhythm);
+  padding-top: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.nav-item {
+  color: var(--catawba);
+  font-size: x-large;
+  font-weight: 600;
+  background: var(--tuscany);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.navbar {
+  background: var(--tuscany);
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 3px 3px var(--jasmine);
+}
+
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.card {
+  border-radius: 2px;
+  height: 500px;
+  margin: 2rem;
+  margin-bottom: 100px;
+  position: relative;
+  width: 500px;
+}
+
+.card-image-top {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--liver-dogs);
+  border-radius: 5px;
+}
+
+.card .card-image-top img {
+  width: 100%;
+  padding: 25px;
+  background-color: var(--liver-dogs);
+}
+
+.card-body, .card-build, #skills, #project-icon, .card-title {
+  background-color: var(--tuscany);
+  
+}
+
+.card-title {
+  color: var(--liver-dogs);
+  font-size: x-large;
+  text-shadow: 1px 1px var(--catawba);
+}
+
+#skills {
+  color: var(--catawba);
+  font-size: large;
+}
+
+#contact-form-div {
+  margin: 25px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+h1, h2, h3 {
+  text-shadow: 2px 2px var(--liver-dogs);
+}
+
+.resume-paragraph, .experience-h3 {
+  font-size: large;
+}
+
+.resume-top, .resume-name, .resume-paragraph {
+  background-color: var(--rhythm);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.be-experience-list, .fe-experience-list, .div-list {
+  background-color: var(--rhythm);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.experience-li, .experience-h3 {
+  background: var(--rhythm);
+  font-size: large;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.fe-experience-list {
+  padding-bottom: 1em;
+}
+
+.be-experience-list {
+  margin-bottom: 150px;
+  padding-bottom: 1em;
+}
+
+label {
+  font-size: x-large;
 }
