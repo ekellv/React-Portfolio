@@ -6,7 +6,7 @@ A react portfolio made with create react app to showcase MSU bootcamp projects.
 
 ![Github license](http://img.shields.io/badge/License-MIT-yellow.svg)
 
-[A version of the deployed website can be viewed here.](https://github.com/ekellv/React-Portfolio)
+[A version of the deployed website can be viewed here.](https://ekellv.github.io/React-Portfolio/)
 
 ## Contents
 
@@ -92,8 +92,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Visuals:
 
-![React Homepage Screenshot](src\assets\react-portfolio-home.png)
-![React Portfolio Screenshot](src\assets\react-portfolio-portf.png)
+![react-portfolio-home](https://user-images.githubusercontent.com/103372188/195965947-68ef9cbc-63d8-4585-8caa-3f49b8c8055c.png)
+![react-portfolio-portf](https://user-images.githubusercontent.com/103372188/195965950-e9ad494f-117b-4f5c-98ba-f65ab7d4940d.png)
 
 ## Technologies
 
